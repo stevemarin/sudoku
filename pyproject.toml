@@ -20,6 +20,8 @@ sudoku = { path = ".", editable = true }
 [tool.pixi.dependencies]
 ruff = ">=0.13.0,<0.14"
 numpy = ">=2.3.3,<3"
+seaborn = "*"
+ipython = ">=9.6.0,<10"
 
 [tool.ruff]
 line-length = 119
